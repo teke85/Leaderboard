@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,200&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+.subheading {
+  font-family: 'Nunito', sans-serif;
+}
+
+ul li {
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 1%;
+}
+
+.left-col {
+  width: 40%;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40%;
+}
+
+.text-box {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.score-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  text-align: center;
+  border: 1px soild #000;
+  width: 30%;
+  height: 20px;
+}
+
+.form_input {
+  width: 50%;
+}
