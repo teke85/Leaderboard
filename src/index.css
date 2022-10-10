@@ -60,6 +60,7 @@ ul li {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+
   /* margin: 1rem 0; */
 }
 
@@ -99,6 +100,6 @@ table tr:nth-child(even) {
 footer {
   position: relative;
   margin-top: 13rem;
-  bottom: 1;
+  bottom: 1px;
   width: 90%;
 }
