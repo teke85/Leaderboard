@@ -16,15 +16,29 @@
                     <h2 class="subheading">Recent scores</h2>
                     <button type="submit" class="btn">Refresh</button>
                 </div>
-                <ul class="score-details">
-                    <li>Name:100</li>
-                    <li>Name:20</li>
-                    <li>Name:50</li>
-                    <li>Name:78</li>
-                    <li>Name:125</li>
-                    <li>Name:77</li>
-                    <li>Name:42</li>
-                </ul>
+                <table class="score-table">
+                    <tr class="score-details">
+                        <td>Name: 100</td>
+                    </tr>
+                    <tr>
+                        <td>Name: 20</td>
+                    </tr>
+                    <tr>
+                        <td>Name: 50</td>
+                    </tr>
+                    <tr>
+                        <td>Name: 78</td>
+                    </tr>
+                    <tr>
+                        <td>Name: 125</td>
+                    </tr>
+                    <tr>
+                        <td>Name: 77</td>
+                    </tr>
+                    <tr>
+                        <td>Name: 42</td>
+                    </tr>
+                </table>
             </div>
             <div class="right-col">
                 <h2 class="subheading">Add your score</h2>
@@ -32,11 +46,15 @@
                     <input name="name" id="name" type="text" class="form_input" required maxlength="30"
                         placeholder="name" />
                     <input type="score" id="score" class="form_input" required placeholder="enter score here" />
-                    <button class="btn" type="submit">Submit</button>
+                    <button class="btn-click" onclick="addScore()" type="submit">Submit</button>
                 </form>
             </div>
         </div>
     </main>
+    <footer class="copyright">
+        <p class="copyright-content">Copyright @ Teke 2022</p>
+    </footer>
+    <script type="module" src="index.js"></script>
 </body>
 
 </html>
