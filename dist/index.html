@@ -17,27 +17,6 @@
                     <button type="submit" class="btn">Refresh</button>
                 </div>
                 <table class="table" id="table">
-                    <!-- <tr class="score-details">
-                        <td>Name: 100</td>
-                    </tr>
-                    <tr>
-                        <td>Name: 20</td>
-                    </tr>
-                    <tr>
-                        <td>Name: 50</td>
-                    </tr>
-                    <tr>
-                        <td>Name: 78</td>
-                    </tr>
-                    <tr>
-                        <td>Name: 125</td>
-                    </tr>
-                    <tr>
-                        <td>Name: 77</td>
-                    </tr>
-                    <tr>
-                        <td>Name: 42</td>
-                    </tr> -->
                 </table>
             </div>
             <div class="right-col">
@@ -45,7 +24,8 @@
                 <form novalidate id="form" class="form" method="post">
                     <input name="name" id="name" type="text" class="form_input" required maxlength="30"
                         placeholder="name" />
-                    <input type="score" id="score" class="form_input" required placeholder="enter score here" />
+                    <input type="score" id="score" class="form_input" required maxlength="10"
+                        placeholder="enter score here" />
                     <button class="btn-click" value="submit" type="submit">Submit</button>
                 </form>
             </div>

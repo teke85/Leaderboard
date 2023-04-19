@@ -2,7 +2,7 @@ import './index.css';
 import postData from './modules/post.js';
 import getData from './modules/get.js';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/7thejendiskaoidjd87g87/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/7thejendiskaoidjd87g88/scores';
 
 const name = document.querySelector('#name');
 const score = document.querySelector('#score');

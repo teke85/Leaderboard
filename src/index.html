@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webpack boiler plate</title>
+    <title>LeaderBoard Web App</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 
 <body>
     <main>
-        <h1 class="heading">Leaderboard</h1>
+        <div class="logo">
+            <img class="trophy" src="https://freesvg.org/img/prize.png" alt="">
+            <h1 class="heading">Leaderboard App</h1>
+        </div>
         <div class="container">
             <div class="left-col">
                 <div class="text-box">
                     <h2 class="subheading">Recent scores</h2>
                     <button type="submit" class="btn">Refresh</button>
                 </div>
-                <table class="table" id="table">
-                </table>
+                <div class="table-container">
+                    <table class="table" id="table">
+                    </table>
+                </div>
             </div>
             <div class="right-col">
                 <h2 class="subheading">Add your score</h2>
@@ -31,9 +37,9 @@
             </div>
         </div>
     </main>
-    <footer class="copyright">
-        <p class="copyright-content">Copyright @ Teke 2022</p>
-    </footer>
+    <!-- <footer class="copyright">
+        <p class="copyright-content"> Designed by Teke / Copyright @ 2022</p>
+    </footer> -->
     <script type="module" src="index.js"></script>
 </body>
 
