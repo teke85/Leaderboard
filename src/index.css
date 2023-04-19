@@ -130,6 +130,7 @@ main {
   text-align: center;
   border: 0.1px solid rgb(253, 249, 249);
   min-width: 20%;
+  max-width: 7rem;
   width: 16rem;
   height: 40px;
   background-color: #ffa500;
