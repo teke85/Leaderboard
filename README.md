@@ -4,7 +4,7 @@
 
 # Microverse LeaderBoard Project
 
-> **This Project is based on the LeaderBoard Project and we are required to setup the structure of the project*
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard [API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 
 ## Built With
@@ -15,9 +15,14 @@
 - Ecma Script 6
 - Webpack
 
-## Live Demo or Screenshot
+## App Screenshot
 
-![webpack boiler plate (1)](https://user-images.githubusercontent.com/29442846/194847650-ecaaeb76-371b-469d-b82d-065f0951f025.png)
+![leaderboard](https://user-images.githubusercontent.com/29442846/233119481-b539f0c3-72a4-4ced-b686-4b35adc248e6.png)
+
+
+## Live Demo
+
+[View Live Demo](https://leaderboard-fpiy.onrender.com/)
 
 ## Get Started
 
