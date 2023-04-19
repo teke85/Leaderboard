@@ -39,7 +39,7 @@ git clone git@github.com:teke85/Leaderboard.git
 ```
 3. To access cloned directory run:
 ```bash
-cd MyPortfolio
+cd Leaderboard
 ```
 4. Run the following commands
 ```bash
